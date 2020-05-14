@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+.main{
+
+}
+.header{
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/friends.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top:0;
+  left:0;
+  position: relative;
+}
+.header .hero{
+  color: white;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  width: 100%;
+  text-align: center;
+
+
+}
+.menu-bar{
+  top:0;
+  left: 0;
+  z-index: 1;
+  position: sticky;
+  top:0;
+}
+.heading{
+  float: left;
+}
+
+.nav-bar{
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 10px 0;
+}
+.scrolled{
+  background: green;
+  transition: 1s;
+}
+.nav-bar a{
+  color: white;
+  text-decoration: none;
+  padding:10px 8px;
+  font-size: 16px;
+}
+.nav-bar a.active{
+  background: #00c9c8;
+  color: black;
+}
+.nav-bar a:hover{
+  background: #00c9c8;
+  color: black;
+  transition: background 2s ease;
+}
+.description{
+  height:200px;
+  margin: 30px 20px 0 10px;
+  padding: 20px;
+  box-shadow: 5px 5px 5px #87AC75;
+  overflow: scroll;
+}
+-moz- (Firefox):.main{ 
+  overflow: -moz-scrollbars-none; }
+.friendlist{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-shadow: 5px 5px 5px #87AC75;
+  overflow: auto;
+}
+.frnd{
+  width: 20%;
+  height: 220px;
+  margin: 5%;
+  box-shadow:5px 5px 5px #a5a5a5;
+  float: left;
+}
+
+@media only screen and (max-width:600px){
+  .frnd{
+    width: 40%;
+  }
+
+}
+
+.frnd img{
+  width: 100%;
+  height:160px;
+}
+.details{
+  font-family: sans-serif;
+}
+.details p{
+  text-align: center;
+  font-size: 12px;
+}
