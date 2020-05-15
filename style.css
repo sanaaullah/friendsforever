@@ -71,10 +71,9 @@
   margin: 30px 20px 0 10px;
   padding: 20px;
   box-shadow: 5px 5px 5px #87AC75;
-  overflow: scroll;
+  overflow: visible;
 }
--moz- (Firefox):.main{ 
-  overflow: -moz-scrollbars-none; }
+
 .friendlist{
   margin-top: 15px;
   margin-bottom: 15px;
@@ -107,4 +106,11 @@
 .details p{
   text-align: center;
   font-size: 12px;
+}
+footer{
+  height:60px;
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
