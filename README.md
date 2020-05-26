@@ -1,3 +1,3 @@
 # friendsforever
 
-https://sanaullah94.github.io/friendsforever/.
+https://sanaaullah.github.io/friendsforever/.
